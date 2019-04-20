@@ -8,7 +8,7 @@ def summon_captain_planet(planet_name)
   # code an argument here
   # Your code here
   new_array=[]
-  new_array=planet_name.map {|name| name.capt
+  new_array=planet_name.map {|name| name.captitalize 
   return new_array
 end
 
