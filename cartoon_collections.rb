@@ -22,10 +22,14 @@ def find_the_cheese(array_string)# code an argument here
   cheese_types = ["cheddar", "gouda", "camembert"]
   if 
   array_string.include?("cheddar")
+  return "cheddar"
 elsif
    array_string.include?("gouda")
+   return "gouda"
    elsif
+   
    array_string.include?("camembert")
+   return "camembert"
  else
  end
 end
