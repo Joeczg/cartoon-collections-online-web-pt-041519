@@ -8,7 +8,7 @@ def summon_captain_planet(planet_name)
   # code an argument here
   # Your code here
   new_array=[]
-  new_array=planet_name.collect {|name| name.upcase << "!"}
+  new_array=planet_name.split.map(&:capitalize).join('!')
   return new_array
 end
 
